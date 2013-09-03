@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <propel>
+    <datasources default="cron_project">
+      <datasource id="cron_project">
+        <adapter>mysql</adapter> <!-- sqlite, mysql, mssql, oracle, or pgsql -->
+        <connection>
+          <dsn>mysql:host=localhost;dbname=cron_project</dsn>
+          <user>root</user>
+          <password>root</password>
+        </connection>
+      </datasource>
+    </datasources>
+  </propel>
+</config>
+
